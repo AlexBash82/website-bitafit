@@ -1,0 +1,554 @@
+.Promo {
+  position: relative;
+  max-width: 1920px;
+  max-height: 1394px;
+  width: 100vw;
+  height: 1394px;
+  display: flex;
+  justify-content: center;
+
+  &_box {
+    width: 1040px;
+    height: 1394px;
+    display: flex;
+    flex-direction: column;
+
+    &_clubs {
+      width: 1040px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background: rgba(110, 140, 245, 0.2);
+      border-radius: 0 0 60px 60px;
+
+      &_text-1 {
+        width: 530px;
+        height: 112px;
+        margin-top: 60px;
+        margin-left: 80px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+
+        color: #6e8cf5;
+      }
+
+      &_text-2 {
+        width: 530px;
+        height: 48px;
+        margin-left: 80px;
+        margin-top: 20px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        letter-spacing: 0.15px;
+
+        color: #6e8cf5;
+      }
+
+      &_imagebox {
+        width: 530px;
+        height: 50px;
+        margin-left: 80px;
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+        mix-blend-mode: multiply;
+
+        &_img-1 {
+          width: 98px;
+          height: 50px;
+          background: url(../../img/icon1-97.85.png);
+        }
+
+        &_img-2 {
+          width: 98px;
+          height: 50px;
+          background: url(../../img/icon2-97.85.png);
+        }
+
+        &_img-3 {
+          width: 98px;
+          height: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          &_img-a {
+            width: 80px;
+            height: 21px;
+            background: url(../../img/icon3-80.26.png);
+          }
+
+          &_img-b {
+            width: 80px;
+            height: 34px;
+            background: url(../../img/icon4-80.26.png);
+          }
+        }
+      }
+    }
+
+    &_coach {
+      position: relative;
+      display: flex;
+      width: 1040px;
+      height: 534px;
+      margin-top: 40px;
+
+      &_bg {
+        position: absolute;
+        width: 1040px;
+        height: 460px;
+        top: 73px;
+        background: rgba(180, 135, 245, 0.2);
+        border-radius: 60px;
+      }
+
+      &_photo {
+        position: relative;
+        width: 474px;
+        height: 573px;
+        top: -25px;
+        background: url(../../img/image3-374.png);
+      }
+
+      &_item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 488px;
+        height: 294px;
+        top: 133px;
+        margin-left: 12px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        color: #b487f5;
+
+        &_text-1 {
+          width: 377px;
+          height: 56px;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 56px;
+        }
+
+        &_text-2 {
+          width: 448px;
+          height: 72px;
+          margin-top: 20px;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.15px;
+        }
+
+        &_block {
+          width: 448px;
+          height: 86px;
+          margin-top: 60px;
+          display: flex;
+          gap: 40px;
+
+          &_col {
+            width: 105px;
+            height: 86px;
+            display: flex;
+            flex-direction: column;
+
+            &_row-1 {
+              width: 105px;
+              height: 36px;
+              font-weight: 700;
+              font-size: 34px;
+              line-height: 36px;
+            }
+
+            &_row-2 {
+              width: 105px;
+              height: 40px;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &_download {
+      width: 1040px;
+      height: 360px;
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      background: rgba(110, 140, 245, 0.2);
+      border-radius: 60px 60px 0 0;
+
+      &_item {
+        width: 880px;
+        height: 240px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+
+        &_col-1 {
+          width: 420px;
+          height: 212px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+
+          &_row-1 {
+            width: 380px;
+            height: 112px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            color: #6e8cf5;
+          }
+
+          &_row-2 {
+            width: 420px;
+            height: 60px;
+            display: flex;
+            gap: 20px;
+
+            &_icon-1 {
+              width: 200px;
+              height: 60px;
+              border-radius: 16px;
+              background: url(../../img/icon5-200.jpg);
+            }
+
+            &_icon-2 {
+              width: 200px;
+              height: 60px;
+              border-radius: 16px;
+              background: url(../../img/icon6-200.jpg);
+            }
+          }
+        }
+
+        &_col-2 {
+          width: 240px;
+          height: 240px;
+          border-radius: 16px;
+          background: url(../../img/icon7-240.jpg);
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .Promo {
+    max-width: 1440px;
+    max-height: 1374px;
+    width: 100vw;
+    height: 1374px;
+
+    &_box {
+      height: 1374px;
+
+      &_download {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1120px) {
+  .Promo {
+    max-width: 1120px;
+    max-height: 1305px;
+    width: 100vw;
+    height: 1305px;
+
+    &_box {
+      width: 944px;
+      height: 1305px;
+
+      &_clubs {
+        width: 944px;
+        height: 391px;
+      }
+
+      &_coach {
+        width: 944px;
+        height: 474px;
+
+        &_bg {
+          width: 944px;
+          height: 400px;
+        }
+
+        &_photo {
+          width: 340px;
+          height: 430px;
+          margin-left: 40px;
+          top: 0;
+          background: url(../../img/image3-340.png);
+        }
+
+        &_item {
+          width: 448px;
+          margin-left: 39px;
+        }
+      }
+
+      &_download {
+        width: 944px;
+
+        &_item {
+          width: 824px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .Promo {
+    max-width: 1000px;
+    max-height: 1044px;
+    width: 100vw;
+    height: 1104px;
+
+    &_box {
+      width: 664px;
+      height: 1044px;
+
+      &_clubs {
+        width: 664px;
+        height: 244px;
+        border-radius: 0 0 40px 40px;
+
+        &_text-1 {
+          height: 32px;
+          margin-top: 40px;
+          margin-left: 40px;
+
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+        }
+
+        &_text-2 {
+          height: 40px;
+          margin-left: 40px;
+          margin-top: 10px;
+
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        &_imagebox {
+          margin-left: 40px;
+          margin-top: 32px;
+        }
+      }
+
+      &_coach {
+        width: 664px;
+        height: 400px;
+        margin-top: 40px;
+
+        &_bg {
+          width: 664px;
+          height: 340px;
+          top: 60px;
+          border-radius: 40px;
+        }
+
+        &_photo {
+          width: 280px;
+          height: 355px;
+          margin-left: 20px;
+
+          background: url(../../img/image3-280.png);
+        }
+
+        &_item {
+          width: 284px;
+          height: 260px;
+          top: 100px;
+
+          &_text-1 {
+            width: 284px;
+            height: 32px;
+            font-size: 24px;
+            line-height: 32px;
+          }
+
+          &_text-2 {
+            width: 284px;
+            height: 100px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 20px;
+          }
+
+          &_block {
+            width: 250px;
+            margin-top: 32px;
+          }
+        }
+      }
+
+      &_download {
+        width: 664px;
+        height: 320px;
+        border-radius: 40px 40px 0 0;
+
+        &_item {
+          width: 584px;
+          height: 240px;
+          margin-top: 40px;
+
+          &_col-1 {
+            width: 344px;
+            gap: 20px;
+
+            &_row-1 {
+              width: 344px;
+              height: 32px;
+              font-size: 24px;
+              line-height: 32px;
+            }
+
+            &_row-2 {
+              width: 200px;
+              height: 130px;
+              flex-direction: column;
+              gap: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 663px) {
+  .Promo {
+    max-width: 663px;
+    max-height: 1274px;
+    width: 100vw;
+    height: 1274px;
+
+    &_box {
+      width: 320px;
+      height: 1274px;
+
+      &_clubs {
+        width: 320px;
+        height: 344px;
+        border-radius: 0 0 20px 20px;
+
+        &_text-1 {
+          width: 280px;
+          height: 64px;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-size: 24px;
+          line-height: 32px;
+        }
+
+        &_text-2 {
+          width: 280px;
+          height: 80px;
+          margin-left: 20px;
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        &_imagebox {
+          width: 280px;
+          height: 110px;
+          margin-left: 20px;
+          margin-top: 20px;
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+      }
+
+      &_coach {
+        width: 320px;
+        height: 676px;
+        margin-top: 32px;
+        flex-direction: column;
+
+        &_bg {
+          width: 320px;
+          height: 616px;
+          border-radius: 20px;
+        }
+
+        &_item {
+          width: 280px;
+          height: 260px;
+          top: 20px;
+          margin-left: 20px;
+
+          &_text-1 {
+            width: 280px;
+          }
+
+          &_text-2 {
+            width: 280px;
+          }
+        }
+      }
+
+      &_download {
+        width: 320px;
+        height: 164px;
+        margin-top: 58px;
+        border-radius: 20px 20px 0 0;
+
+        &_item {
+          width: 280px;
+          height: 92px;
+          margin-top: 20px;
+          margin-left: 20px;
+
+          &_col-1 {
+            width: 280px;
+            height: 32px;
+            gap: 32px;
+
+            &_row-1 {
+              width: 280px;
+              height: 32px;
+            }
+
+            &_row-2 {
+              width: 280px;
+              height: 60px;
+
+              &_icon-2 {
+                display: none;
+              }
+            }
+          }
+
+          &_col-2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

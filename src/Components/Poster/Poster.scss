@@ -1,0 +1,332 @@
+.Poster {
+  position: relative;
+  max-width: 1920px;
+  max-height: 900px;
+  width: 100vw;
+  height: 46.875vw;
+
+  &_image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 1920px;
+    max-height: 900px;
+    width: 100vw;
+    height: 46.875vw;
+    background-image: url(../../img/image1-1920.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+  }
+
+  &_rectangle {
+    position: absolute;
+    width: 412px;
+    height: 233px;
+    left: -53px;
+    top: -104px;
+    background-color: #317be4;
+    filter: blur(60px); //original 124px?
+    border-radius: 0px 0px 116.5px 0px;
+  }
+
+  &_logo {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 199.36px;
+    height: 40px;
+    left: 100px;
+    top: 20px;
+
+    &_symbl {
+      height: 40px;
+      width: 48.15px;
+
+      background-image: url(../../icons/Logo-symbl.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &_text {
+      width: 139.36px;
+      height: 32.22px;
+      background-image: url(../../icons/Bitafit-txt.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &_frame {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 20px;
+
+    box-sizing: border-box;
+    width: 512px;
+    height: 384px;
+    left: 52.132vw;
+    bottom: 60px;
+
+    background: #ffffff;
+    border-radius: 32px;
+
+    &_text-1 {
+      width: 430px;
+      height: 168px;
+      top: 32px;
+      left: 32px;
+
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: #282332;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    &_text-2 {
+      width: 448px;
+      height: 48px;
+
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+      color: #282332;
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    &_button {
+      width: 247px;
+      height: 64px;
+      border: none;
+      border-radius: 20px;
+      order: 2;
+      background: linear-gradient(103.55deg, #b487f5 0%, #6e8cf5 100%);
+
+      &:hover {
+        background: linear-gradient(103.55deg, #b487f5 0%, #2846af 100%);
+      }
+
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .Poster {
+    max-width: 1440px;
+    max-height: 800px;
+    width: 100vw;
+    height: 800px;
+
+    &_image {
+      width: 100vw;
+      height: 800px;
+      background-image: url(../../img/image1-1440.jpg);
+    }
+
+    &_frame {
+      left: 50.55vw;
+    }
+  }
+}
+
+@media all and (max-width: 1157px) {
+  .Poster {
+    &_frame {
+      left: auto;
+      right: 60px;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .Poster {
+    max-width: 1024px;
+    max-height: 800px;
+    width: 100vw;
+    height: 800px;
+
+    &_image {
+      width: 100vw;
+      height: 800px;
+      background-image: url(../../img/image1-1024.jpg);
+    }
+
+    &_rectangle {
+      left: -180px;
+      top: -130px;
+    }
+
+    &_logo {
+      left: 20px;
+    }
+
+    &_frame {
+      right: 5.85vw;
+    }
+  }
+}
+
+@media all and (max-width: 740px) {
+  .Poster {
+    max-width: 740px;
+    max-height: 600px;
+    width: 100vw;
+    height: 600px;
+
+    &_image {
+      width: 100vw;
+      height: 600px;
+      background-image: url(../../img/image1-740.jpg);
+    }
+
+    &_frame {
+      width: 320px;
+      height: 238px;
+      right: 5.4vw;
+      bottom: 30px;
+      padding: 20px;
+      gap: 10px;
+
+      &_text-1 {
+        width: 218px;
+        height: 72px;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.18px;
+      }
+
+      &_text-2 {
+        width: 280px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+
+        > br {
+          display: none;
+        }
+      }
+
+      &_button {
+        width: 247px;
+        height: 56px;
+        padding: 16px 32px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 359px) {
+  .Poster {
+    &_frame {
+      right: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 340px) {
+  .Poster {
+    &_frame {
+      left: 0;
+      right: auto;
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+  .Poster {
+    max-width: 320px;
+    max-height: 458px;
+    width: 100vw;
+    height: 458px;
+
+    &_image {
+      width: 100vw;
+      height: 240px;
+      background-image: url(../../img/image1-320.jpg);
+    }
+
+    &_rectangle {
+      width: 143px;
+      height: 41px;
+      left: 0px;
+      top: 0px;
+    }
+
+    &_logo {
+      width: 99.68px;
+      height: 20px;
+      left: 10px;
+      top: 10px;
+
+      &_symbl {
+        height: 24.07px;
+        width: 20px;
+      }
+
+      &_text {
+        width: 69.68px;
+        height: 16.11px;
+      }
+    }
+
+    &_frame {
+      padding: 20px;
+      gap: 10px;
+
+      width: 320px;
+      height: 238px;
+      left: 0px;
+      bottom: auto;
+      top: 220px;
+
+      border-radius: 20px;
+
+      &_text-1 {
+        width: 218px;
+        height: 72px;
+        top: 20px;
+        left: 20px;
+
+        font-size: 24px;
+        line-height: 24px;
+      }
+
+      &_text-2 {
+        width: 280px;
+        height: 40px;
+
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
