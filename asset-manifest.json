@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.72b3d1c4.css",
+    "main.js": "/website/static/js/main.41517735.js",
+    "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
+    "static/media/image1-1920.jpg": "/website/static/media/image1-1920.0772be2c15bce4753ec6.jpg",
+    "static/media/image1-1440.jpg": "/website/static/media/image1-1440.3eed51bec5dc57f58ccc.jpg",
+    "static/media/image2-1920.png": "/website/static/media/image2-1920.10784cdfedcd45c71cc4.png",
+    "static/media/image2-1440.png": "/website/static/media/image2-1440.3c0ef8201ae49a5c6858.png",
+    "static/media/image1-1024.jpg": "/website/static/media/image1-1024.b15fd37a7d648db9c2ed.jpg",
+    "static/media/image2-1024.png": "/website/static/media/image2-1024.d01bd066e5eb9f947fba.png",
+    "static/media/image3-374.png": "/website/static/media/image3-374.341fda17d86a8ac7492e.png",
+    "static/media/image1-740.jpg": "/website/static/media/image1-740.837adaa4c337e4e45267.jpg",
+    "static/media/image2-740.png": "/website/static/media/image2-740.0cce5bb0030ef093773e.png",
+    "static/media/image3-340.png": "/website/static/media/image3-340.ea14eb91da543f43bb3d.png",
+    "static/media/image2-320.png": "/website/static/media/image2-320.7c02b782a79b50c6778c.png",
+    "static/media/image3-280.png": "/website/static/media/image3-280.2fbb5af62284f92d7be4.png",
+    "static/media/phone-small.png": "/website/static/media/phone-small.28a8a5daaeb13eb2e3d5.png",
+    "static/media/phone-274-560.jpg": "/website/static/media/phone-274-560.5a16a201a77ce42f4537.jpg",
+    "static/media/image1-320.jpg": "/website/static/media/image1-320.d2c3682a81bd5fdb1d23.jpg",
+    "static/media/Gilroy-Semibold.eot": "/website/static/media/Gilroy-Semibold.54bc2f8147659c45a055.eot",
+    "static/media/Gilroy-Semibold.ttf": "/website/static/media/Gilroy-Semibold.41fa36c3c8e966b35423.ttf",
+    "static/media/Gilroy-Bold.eot": "/website/static/media/Gilroy-Bold.aa68c169bc1dc3db278e.eot",
+    "static/media/Gilroy-Bold.ttf": "/website/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/icon7-240.jpg": "/website/static/media/icon7-240.b13d2067f1182f47709b.jpg",
+    "static/media/Gilroy-Bold.woff": "/website/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Semibold.woff": "/website/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
+    "static/media/Gilroy-Bold.woff2": "/website/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
+    "static/media/Gilroy-Semibold.woff2": "/website/static/media/Gilroy-Semibold.7726b19d33f1b7f4135a.woff2",
+    "index.html": "/website/index.html",
+    "main.72b3d1c4.css.map": "/website/static/css/main.72b3d1c4.css.map",
+    "main.41517735.js.map": "/website/static/js/main.41517735.js.map",
+    "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72b3d1c4.css",
+    "static/js/main.41517735.js"
+  ]
+}
