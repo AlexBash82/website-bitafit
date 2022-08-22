@@ -60,14 +60,22 @@ function Promo({ elementToScrollRef }) {
               </div>
               <div className="Promo_box_download_item_col-1_row-2">
                 <a href="https://play.google.com/store/apps/details?id=com.bitafit.client">
-                  <div className="Promo_box_download_item_col-1_row-2_icon-1"></div>
+                  <div className="Promo_box_download_item_col-1_row-2_button-1">
+                    <div className="Promo_box_download_item_col-1_row-2_button-1_icon-1"></div>
+                  </div>
                 </a>
                 <a href="https://apps.apple.com/ru/app/bitafit/id1591904801?l=en">
-                  <div className="Promo_box_download_item_col-1_row-2_icon-2"></div>
+                  <div className="Promo_box_download_item_col-1_row-2_button-2">
+                    <div className="Promo_box_download_item_col-1_row-2_button-2_icon-2"></div>
+                  </div>
                 </a>
               </div>
             </div>
-            <div className="Promo_box_download_item_col-2"></div>
+            <div className="Promo_box_download_item_col-2">
+              <div className="Promo_box_download_item_col-2_square">
+                <div className="Promo_box_download_item_col-2_square_icon-qr"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

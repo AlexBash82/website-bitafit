@@ -332,30 +332,22 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 540px) {
   .Schedule {
-    max-width: 320px;
     max-height: 820px;
-    width: 100vw;
     height: 820px;
     flex-direction: column-reverse;
     align-items: center;
 
     &_image {
       &_gradient {
-        max-width: 320px;
         max-height: 820px;
-        width: 100vw;
         height: 820px;
       }
-
       &_png {
-        max-width: 320px;
         max-height: 820px;
-        width: 100vw;
         height: 820px;
-
-        background: url(../../img/image2-320.png);
+        background-size: 100% 100%;
       }
     }
 
@@ -368,6 +360,26 @@
     &_frame {
       top: -35px;
       z-index: 1;
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+  .Schedule {
+    max-width: 320px;
+    width: 100vw;
+
+    &_image {
+      &_gradient {
+        max-width: 320px;
+        width: 100vw;
+      }
+
+      &_png {
+        max-width: 320px;
+        width: 100vw;
+        background: url(../../img/image2-320.png);
+      }
     }
   }
 }

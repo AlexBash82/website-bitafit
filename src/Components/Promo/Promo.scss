@@ -56,7 +56,7 @@
 
       &_imagebox {
         width: 530px;
-        height: 50px;
+        height: 51px;
         margin-left: 80px;
         margin-top: 40px;
         display: flex;
@@ -65,19 +65,19 @@
 
         &_img-1 {
           width: 98px;
-          height: 50px;
+          height: 51px;
           background: url(../../img/icon1-97.85.png);
         }
 
         &_img-2 {
           width: 98px;
-          height: 50px;
+          height: 51px;
           background: url(../../img/icon2-97.85.png);
         }
 
         &_img-3 {
           width: 98px;
-          height: 50px;
+          height: 51px;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
@@ -165,7 +165,7 @@
             flex-direction: column;
 
             &_row-1 {
-              width: 105px;
+              width: 110px;
               height: 36px;
               font-weight: 700;
               font-size: 34px;
@@ -173,7 +173,7 @@
             }
 
             &_row-2 {
-              width: 105px;
+              width: 110px;
               height: 40px;
               font-weight: 600;
               font-size: 14px;
@@ -224,18 +224,38 @@
             display: flex;
             gap: 20px;
 
-            &_icon-1 {
+            &_button-1 {
               width: 200px;
               height: 60px;
               border-radius: 16px;
-              background: url(../../img/icon5-200.jpg);
+              background-color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &_icon-1 {
+                width: 166px;
+                height: 31px;
+                background-image: url(../../icons/Google-play.svg);
+                background-repeat: no-repeat;
+              }
             }
 
-            &_icon-2 {
+            &_button-2 {
               width: 200px;
               height: 60px;
               border-radius: 16px;
-              background: url(../../img/icon6-200.jpg);
+              background-color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &_icon-2 {
+                width: 165px;
+                height: 39px;
+                background-image: url(../../icons/App-Store.svg);
+                background-repeat: no-repeat;
+              }
             }
           }
         }
@@ -244,7 +264,25 @@
           width: 240px;
           height: 240px;
           border-radius: 16px;
-          background: url(../../img/icon7-240.jpg);
+          background: url(../../img/icon7-240.png);
+
+          &_square {
+            position: relative;
+            left: 82px;
+            top: 76px;
+            width: 88px;
+            height: 88px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &_icon-qr {
+              width: 62px;
+              height: 52px;
+              background: url(../../img/icon7qr-62.svg);
+            }
+          }
         }
       }
     }
@@ -535,10 +573,10 @@
             }
 
             &_row-2 {
-              width: 280px;
+              width: 200px;
               height: 60px;
 
-              &_icon-2 {
+              &_button-2 {
                 display: none;
               }
             }
