@@ -1,6 +1,6 @@
 .Promo {
   position: relative;
-  max-width: 1920px;
+  max-width: 3200px;
   max-height: 1394px;
   width: 100vw;
   height: 1394px;
@@ -118,7 +118,8 @@
         width: 474px;
         height: 573px;
         top: -25px;
-        background: url(../../img/image3-374.png);
+        background: url(../../img/image3-748.png);
+        background-size: auto 100%;
       }
 
       &_item {
@@ -224,7 +225,7 @@
             display: flex;
             gap: 20px;
 
-            &_button-1 {
+            &_button {
               width: 200px;
               height: 60px;
               border-radius: 16px;
@@ -239,16 +240,6 @@
                 background-image: url(../../icons/Google-play.svg);
                 background-repeat: no-repeat;
               }
-            }
-
-            &_button-2 {
-              width: 200px;
-              height: 60px;
-              border-radius: 16px;
-              background-color: white;
-              display: flex;
-              justify-content: center;
-              align-items: center;
 
               &_icon-2 {
                 width: 165px;
@@ -264,16 +255,17 @@
           width: 240px;
           height: 240px;
           border-radius: 16px;
-          background: url(../../img/icon7-240.png);
+          background: url(../../img/icon7-240.svg);
 
           &_square {
+            display: none; // qr не читается с этим логотипом...
             position: relative;
             left: 82px;
             top: 76px;
             width: 88px;
             height: 88px;
             background-color: white;
-            display: flex;
+            //display: flex;
             justify-content: center;
             align-items: center;
 
@@ -285,6 +277,15 @@
           }
         }
       }
+    }
+  }
+}
+
+@media all and (max-width: 1920px) {
+  .Promo {
+    max-width: 1920px;
+    &_box_coach_photo {
+      background: url(../../img/image3-374.png);
     }
   }
 }
