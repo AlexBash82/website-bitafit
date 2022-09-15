@@ -61,7 +61,13 @@ function Footer() {
               }`}
               {...register('firstname', { required: true })}
             />
-            <label className="Footer_box_form_container_label">Имя</label>
+            <label
+              className={`Footer_box_form_container_label ${
+                errors?.firstname && 'color-error'
+              } `}
+            >
+              Имя
+            </label>
           </div>
           <div className="Footer_box_form_container">
             <InputMask
@@ -78,7 +84,7 @@ function Footer() {
             />
             <label
               className={`Footer_box_form_container_label ${
-                errors?.phone ? 'color-error' : ''
+                errors?.phone && 'color-error'
               } `}
             >
               Телефон
@@ -89,7 +95,7 @@ function Footer() {
             type="submit"
             value=""
             className={`Footer_box_form_button ${
-              isSubmitSuccessful ? 'succes' : ''
+              isSubmitSuccessful && 'succes'
             }`}
           >
             {isSubmitSuccessful ? 'Заявка отправлена' : 'Оставить заявку'}
