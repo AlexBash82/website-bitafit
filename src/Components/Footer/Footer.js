@@ -56,8 +56,10 @@ function Footer() {
           <div className="Footer_box_form_container">
             <input
               placeholder=" "
-              className="Footer_box_form_container_input"
-              {...register('firstname', {})}
+              className={`Footer_box_form_container_input ${
+                errors?.firstname && 'border-error'
+              }`}
+              {...register('firstname', { required: true })}
             />
             <label className="Footer_box_form_container_label">Имя</label>
           </div>
@@ -65,7 +67,7 @@ function Footer() {
             <InputMask
               placeholder=" "
               className={`Footer_box_form_container_input ${
-                errors?.phone ? 'border-error' : ''
+                errors?.phone && 'border-error'
               } `}
               type="tel"
               mask="+7(999)-999-99-99"
