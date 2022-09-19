@@ -1,8 +1,8 @@
 import React from 'react'
 import './Promo.scss'
 
-function Promo({ elementToScrollRef }) {
-  const large = window.matchMedia('screen and (min-width: 663px)').matches
+function Promo({ elementToScrollRef, isWebP }) {
+  const twoButtons = window.matchMedia('screen and (min-width: 663px)').matches
   const isIphone = window.navigator.userAgent.toLowerCase().match(/iphone/i)
 
   return (
@@ -62,14 +62,14 @@ function Promo({ elementToScrollRef }) {
                 Скачай приложение
               </div>
               <div className="Promo_box_download_item_col-1_row-2">
-                {(large || !isIphone) && (
+                {(twoButtons || !isIphone) && (
                   <a href="https://play.google.com/store/apps/details?id=com.bitafit.client">
                     <div className="Promo_box_download_item_col-1_row-2_button">
                       <div className="Promo_box_download_item_col-1_row-2_button_icon-1"></div>
                     </div>
                   </a>
                 )}
-                {(large || isIphone) && (
+                {(twoButtons || isIphone) && (
                   <a href="https://apps.apple.com/ru/app/bitafit/id1591904801?l=en">
                     <div className="Promo_box_download_item_col-1_row-2_button">
                       <div className="Promo_box_download_item_col-1_row-2_button_icon-2"></div>

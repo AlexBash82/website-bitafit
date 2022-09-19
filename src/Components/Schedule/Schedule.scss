@@ -38,6 +38,21 @@
       background-repeat: no-repeat;
       mix-blend-mode: soft-light;
     }
+
+    &_webP {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      max-width: 3200px;
+      max-height: 720px;
+      height: 720px;
+      width: 100vw;
+      background: url(../../img/image2-3200.webp);
+      background-size: cover;
+      background-position: center 100%;
+      background-repeat: no-repeat;
+      mix-blend-mode: soft-light;
+    }
   }
 
   &_frame {
@@ -140,13 +155,57 @@
     box-shadow: 0px 40px 60px rgba(80, 108, 207, 0.48);
     border-radius: 32px;
 
-    &_display {
+    &_display-1 {
       position: absolute;
       width: 274px;
       height: 560px;
       top: 23px;
       left: 13px;
-      background-image: url(../../img/phone-274-560.jpg);
+      background-image: url(../../img/phone1-274-560.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &_display-2 {
+      position: absolute;
+      width: 274px;
+      height: 560px;
+      top: 23px;
+      left: 13px;
+      background-image: url(../../img/phone2-274-560.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &_display-3 {
+      position: absolute;
+      width: 274px;
+      height: 560px;
+      top: 23px;
+      left: 13px;
+      background-image: url(../../img/phone3-274-560.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &_display-4 {
+      position: absolute;
+      width: 274px;
+      height: 560px;
+      top: 23px;
+      left: 13px;
+      background-image: url(../../img/phone4-274-560.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &_display-5 {
+      position: absolute;
+      width: 274px;
+      height: 560px;
+      top: 23px;
+      left: 13px;
+      background-image: url(../../img/phone5-274-560.jpg);
       background-size: 100%;
       background-repeat: no-repeat;
     }
@@ -196,6 +255,10 @@
         max-width: 1920px;
         background: url(../../img/image2-1920.png);
       }
+      &_webP {
+        max-width: 1920px;
+        background: url(../../img/image2-1920.webp);
+      }
     }
   }
 }
@@ -211,6 +274,10 @@
       &_png {
         max-width: 1440px;
         background: url(../../img/image2-1440.png);
+      }
+      &_webP {
+        max-width: 1440px;
+        background: url(../../img/image2-1440.webp);
       }
     }
   }
@@ -228,6 +295,10 @@
       &_png {
         max-width: 1024px;
         background: url(../../img/image2-1024.png);
+      }
+      &_webP {
+        max-width: 1024px;
+        background: url(../../img/image2-1024.webp);
       }
     }
   }
@@ -330,8 +401,13 @@
 }
 
 @media all and (max-width: 740px) {
-  .Schedule_image_png {
-    background: url(../../img/image2-740.png);
+  .Schedule_image {
+    &_png {
+      background: url(../../img/image2-740.png);
+    }
+    &_webP {
+      background: url(../../img/image2-740.webp);
+    }
   }
 }
 
@@ -392,6 +468,11 @@
         max-width: 320px;
         width: 100vw;
         background: url(../../img/image2-320.png);
+      }
+      &_webP {
+        max-width: 320px;
+        width: 100vw;
+        background: url(../../img/image2-320.webp);
       }
     }
   }

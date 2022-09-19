@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Schedule.scss'
 
-function Schedule({ executeScroll, htmlElRef2 }) {
+function Schedule({ executeScroll, htmlElRef2, isWebP }) {
   const [selButton, setSelButton] = useState(1)
   const buttons = [1, 2, 3, 4, 5]
 
@@ -9,7 +9,11 @@ function Schedule({ executeScroll, htmlElRef2 }) {
     <div ref={htmlElRef2} className="Schedule">
       <div className="Schedule_image">
         <div className="Schedule_image_gradient"></div>
-        <div className="Schedule_image_png"></div>
+        {isWebP ? (
+          <div className="Schedule_image_webP"></div>
+        ) : (
+          <div className="Schedule_image_png"></div>
+        )}
       </div>
 
       <div className="Schedule_frame">
@@ -91,7 +95,20 @@ function Schedule({ executeScroll, htmlElRef2 }) {
         </button>
       </div>
       <div className="Schedule_phone">
-        <div className="Schedule_phone_display"></div>
+        {selButton === 1 ? (
+          <div className="Schedule_phone_display-1"></div>
+        ) : selButton === 2 ? (
+          <div className="Schedule_phone_display-2"></div>
+        ) : selButton === 3 ? (
+          <div className="Schedule_phone_display-3"></div>
+        ) : selButton === 4 ? (
+          <div className="Schedule_phone_display-4"></div>
+        ) : selButton === 5 ? (
+          <div className="Schedule_phone_display-5"></div>
+        ) : (
+          <></>
+        )}
+
         <div className="Schedule_phone_rectangle-1"></div>
         <div className="Schedule_phone_rectangle-2"></div>
       </div>
