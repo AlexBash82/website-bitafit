@@ -9,11 +9,7 @@ function Schedule({ executeScroll, htmlElRef2, isWebP }) {
     <div ref={htmlElRef2} className="Schedule">
       <div className="Schedule_image">
         <div className="Schedule_image_gradient"></div>
-        {isWebP ? (
-          <div className="Schedule_image_webP"></div>
-        ) : (
-          <div className="Schedule_image_png"></div>
-        )}
+        <div className={`Schedule_image_${isWebP ? 'webP' : 'png'}`}></div>
       </div>
 
       <div className="Schedule_frame">
@@ -95,20 +91,7 @@ function Schedule({ executeScroll, htmlElRef2, isWebP }) {
         </button>
       </div>
       <div className="Schedule_phone">
-        {selButton === 1 ? (
-          <div className="Schedule_phone_display-1"></div>
-        ) : selButton === 2 ? (
-          <div className="Schedule_phone_display-2"></div>
-        ) : selButton === 3 ? (
-          <div className="Schedule_phone_display-3"></div>
-        ) : selButton === 4 ? (
-          <div className="Schedule_phone_display-4"></div>
-        ) : selButton === 5 ? (
-          <div className="Schedule_phone_display-5"></div>
-        ) : (
-          <></>
-        )}
-
+        <div className={`Schedule_phone_display-${selButton}`}></div>
         <div className="Schedule_phone_rectangle-1"></div>
         <div className="Schedule_phone_rectangle-2"></div>
       </div>

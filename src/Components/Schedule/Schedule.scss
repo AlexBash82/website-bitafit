@@ -1,3 +1,27 @@
+@mixin dysplayConfig {
+  position: absolute;
+  width: 274px;
+  height: 560px;
+  top: 23px;
+  left: 13px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@mixin backgrounImage {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-width: 3200px;
+  max-height: 720px;
+  height: 720px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  mix-blend-mode: soft-light;
+}
+
 .Schedule {
   position: relative;
   max-width: 3200px;
@@ -25,33 +49,13 @@
     }
 
     &_png {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      max-width: 3200px;
-      max-height: 720px;
-      height: 720px;
-      width: 100vw;
+      @include backgrounImage;
       background: url(../../img/image2-3200.png);
-      background-size: cover;
-      background-position: center 100%;
-      background-repeat: no-repeat;
-      mix-blend-mode: soft-light;
     }
 
     &_webP {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      max-width: 3200px;
-      max-height: 720px;
-      height: 720px;
-      width: 100vw;
+      @include backgrounImage;
       background: url(../../img/image2-3200.webp);
-      background-size: cover;
-      background-position: center 100%;
-      background-repeat: no-repeat;
-      mix-blend-mode: soft-light;
     }
   }
 
@@ -78,13 +82,13 @@
         box-sizing: border-box;
         background: rgba(255, 255, 255, 0);
 
-        & > span {
-          font-family: 'Gilroy';
-          font-style: normal;
+        & span {
           font-weight: 700;
           font-size: 34px;
           line-height: 60px;
-          color: #ffffff;
+          font-family: 'Gilroy';
+          font-style: normal;
+          color: #fff;
         }
 
         &:hover {
@@ -93,7 +97,7 @@
 
         &:active {
           background: #ffffff;
-          & > span {
+          & span {
             background: linear-gradient(103.55deg, #b487f5 0%, #6e8cf5 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -106,23 +110,16 @@
     &_text-1 {
       width: 480px;
       height: 112px;
-      font-family: 'Gilroy';
-      font-style: normal;
       font-weight: 700;
       font-size: 48px;
       line-height: 56px;
-      color: #ffffff;
     }
 
     &_text-2 {
       margin-top: -20px;
-      font-family: 'Gilroy';
-      font-style: normal;
-      font-weight: 600;
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 0.15px;
-      color: #ffffff;
     }
 
     &_button {
@@ -156,58 +153,28 @@
     border-radius: 32px;
 
     &_display-1 {
-      position: absolute;
-      width: 274px;
-      height: 560px;
-      top: 23px;
-      left: 13px;
+      @include dysplayConfig;
       background-image: url(../../img/phone1-274-560.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     &_display-2 {
-      position: absolute;
-      width: 274px;
-      height: 560px;
-      top: 23px;
-      left: 13px;
+      @include dysplayConfig;
       background-image: url(../../img/phone2-274-560.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     &_display-3 {
-      position: absolute;
-      width: 274px;
-      height: 560px;
-      top: 23px;
-      left: 13px;
+      @include dysplayConfig;
       background-image: url(../../img/phone3-274-560.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     &_display-4 {
-      position: absolute;
-      width: 274px;
-      height: 560px;
-      top: 23px;
-      left: 13px;
+      @include dysplayConfig;
       background-image: url(../../img/phone4-274-560.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     &_display-5 {
-      position: absolute;
-      width: 274px;
-      height: 560px;
-      top: 23px;
-      left: 13px;
+      @include dysplayConfig;
       background-image: url(../../img/phone5-274-560.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     &_rectangle-1 {
