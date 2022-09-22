@@ -91,7 +91,11 @@ function Schedule({ executeScroll, htmlElRef2, isWebP }) {
         </button>
       </div>
       <div className="Schedule_phone">
-        <div className={`Schedule_phone_display-${selButton}`}></div>
+        <div
+          className={`Schedule_phone_display-${selButton}_${
+            isWebP ? 'webP' : 'jpg'
+          }`}
+        ></div>
         <div className="Schedule_phone_rectangle-1"></div>
         <div className="Schedule_phone_rectangle-2"></div>
       </div>

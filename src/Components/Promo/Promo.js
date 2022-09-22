@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Promo.scss'
 
 function Promo({ elementToScrollRef, isWebP }) {
-  const twoButtons = window.matchMedia('screen and (min-width: 663px)').matches
+  const twoButtons = window.matchMedia('screen and (min-width: 664px)').matches
   const isIphone = window.navigator.userAgent.toLowerCase().match(/iphone/i)
 
   return (
@@ -27,7 +27,7 @@ function Promo({ elementToScrollRef, isWebP }) {
         </div>
         <div className="Promo_box_coach">
           <div className="Promo_box_coach_bg"></div>
-          <div className="Promo_box_coach_photo"></div>
+          <div className={`Promo_box_coach_${isWebP ? 'webP' : 'png'}`}></div>
           <div className="Promo_box_coach_item">
             <div className="Promo_box_coach_item_text-1">Крутые тренера</div>
             <div className="Promo_box_coach_item_text-2">

@@ -6,6 +6,7 @@
   left: 13px;
   background-size: 100%;
   background-repeat: no-repeat;
+  border-radius: 16px;
 }
 
 @mixin backgrounImage {
@@ -50,12 +51,12 @@
 
     &_png {
       @include backgrounImage;
-      background: url(../../img/image2-3200.png);
+      background-image: url(../../img/image2-3200.png);
     }
 
     &_webP {
       @include backgrounImage;
-      background: url(../../img/image2-3200.webp);
+      background-image: url(../../img/image2-3200.webp);
     }
   }
 
@@ -152,29 +153,54 @@
     box-shadow: 0px 40px 60px rgba(80, 108, 207, 0.48);
     border-radius: 32px;
 
-    &_display-1 {
+    &_display-1_jpg {
       @include dysplayConfig;
       background-image: url(../../img/phone1-274-560.jpg);
     }
 
-    &_display-2 {
+    &_display-2_jpg {
       @include dysplayConfig;
       background-image: url(../../img/phone2-274-560.jpg);
     }
 
-    &_display-3 {
+    &_display-3_jpg {
       @include dysplayConfig;
       background-image: url(../../img/phone3-274-560.jpg);
     }
 
-    &_display-4 {
+    &_display-4_jpg {
       @include dysplayConfig;
       background-image: url(../../img/phone4-274-560.jpg);
     }
 
-    &_display-5 {
+    &_display-5_jpg {
       @include dysplayConfig;
       background-image: url(../../img/phone5-274-560.jpg);
+    }
+
+    &_display-1_webP {
+      @include dysplayConfig;
+      background-image: url(../../img/phone1-274-560.webp);
+    }
+
+    &_display-2_webP {
+      @include dysplayConfig;
+      background-image: url(../../img/phone2-274-560.webp);
+    }
+
+    &_display-3_webP {
+      @include dysplayConfig;
+      background-image: url(../../img/phone3-274-560.webp);
+    }
+
+    &_display-4_webP {
+      @include dysplayConfig;
+      background-image: url(../../img/phone4-274-560.webp);
+    }
+
+    &_display-5_webP {
+      @include dysplayConfig;
+      background-image: url(../../img/phone5-274-560.webp);
     }
 
     &_rectangle-1 {
@@ -220,11 +246,11 @@
 
       &_png {
         max-width: 1920px;
-        background: url(../../img/image2-1920.png);
+        background-image: url(../../img/image2-1920.png);
       }
       &_webP {
         max-width: 1920px;
-        background: url(../../img/image2-1920.webp);
+        background-image: url(../../img/image2-1920.webp);
       }
     }
   }
@@ -240,11 +266,11 @@
       }
       &_png {
         max-width: 1440px;
-        background: url(../../img/image2-1440.png);
+        background-image: url(../../img/image2-1440.png);
       }
       &_webP {
         max-width: 1440px;
-        background: url(../../img/image2-1440.webp);
+        background-image: url(../../img/image2-1440.webp);
       }
     }
   }
@@ -261,11 +287,11 @@
       }
       &_png {
         max-width: 1024px;
-        background: url(../../img/image2-1024.png);
+        background-image: url(../../img/image2-1024.png);
       }
       &_webP {
         max-width: 1024px;
-        background: url(../../img/image2-1024.webp);
+        background-image: url(../../img/image2-1024.webp);
       }
     }
   }
@@ -292,7 +318,8 @@
         width: 100vw;
         height: 500px;
       }
-      &_png {
+      &_png,
+      &_webP {
         max-width: 880px;
         max-height: 500px;
         width: 100vw;
@@ -344,24 +371,38 @@
     }
 
     &_phone {
-      width: 280px;
-      height: 478px;
+      width: 203px;
+      height: 402px;
       top: 40px;
-      background: url(../../img/phone-small.png);
-      background-repeat: no-repeat;
-      border: none;
-      box-shadow: none;
-      border-radius: 0;
-      margin-right: -40px;
+      border-radius: 20px;
 
-      &_display {
-        display: none;
+      &_display-1_jpg,
+      &_display-2_jpg,
+      &_display-3_jpg,
+      &_display-4_jpg,
+      &_display-5_jpg,
+      &_display-1_webP,
+      &_display-2_webP,
+      &_display-3_webP,
+      &_display-4_webP,
+      &_display-5_webP {
+        width: 183px;
+        height: 374px;
+        left: 10px;
+        top: 16px;
+        border-radius: 14px;
       }
       &_rectangle-1 {
-        display: none;
+        width: 36px;
+        height: 3px;
+        top: 10px;
+        left: 83px;
       }
       &_rectangle-2 {
-        display: none;
+        width: 76px;
+        height: 6px;
+        top: 382px;
+        left: 65px;
       }
     }
   }
@@ -370,21 +411,17 @@
 @media all and (max-width: 740px) {
   .Schedule_image {
     &_png {
-      background: url(../../img/image2-740.png);
+      background-image: url(../../img/image2-740.png);
     }
     &_webP {
-      background: url(../../img/image2-740.webp);
+      background-image: url(../../img/image2-740.webp);
     }
   }
 }
 
 @media all and (max-width: 680px) {
   .Schedule {
-    gap: 0px;
-
-    &_phone {
-      margin-left: -20px;
-    }
+    gap: 10px;
   }
 }
 
@@ -400,7 +437,8 @@
         max-height: 820px;
         height: 820px;
       }
-      &_png {
+      &_png,
+      &_webP {
         max-height: 820px;
         height: 820px;
         background-size: 100% 100%;
@@ -414,7 +452,7 @@
     }
 
     &_frame {
-      top: -35px;
+      top: 20px;
       z-index: 1;
     }
   }
@@ -434,12 +472,12 @@
       &_png {
         max-width: 320px;
         width: 100vw;
-        background: url(../../img/image2-320.png);
+        background-image: url(../../img/image2-320.png);
       }
       &_webP {
         max-width: 320px;
         width: 100vw;
-        background: url(../../img/image2-320.webp);
+        background-image: url(../../img/image2-320.webp);
       }
     }
   }

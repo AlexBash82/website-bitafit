@@ -1,3 +1,11 @@
+@mixin backgrounImage {
+  position: relative;
+  width: 474px;
+  height: 573px;
+  top: -25px;
+  background-size: 100%;
+}
+
 .Promo {
   position: relative;
   max-width: 3200px;
@@ -106,13 +114,14 @@
         border-radius: 60px;
       }
 
-      &_photo {
-        position: relative;
-        width: 474px;
-        height: 573px;
-        top: -25px;
-        background: url(../../img/image3-748.png);
-        background-size: auto 100%;
+      &_png {
+        @include backgrounImage;
+        background-image: url(../../img/image3-748.png);
+      }
+
+      &_webP {
+        @include backgrounImage;
+        background-image: url(../../img/image3-748.webp);
       }
 
       &_item {
@@ -272,8 +281,13 @@
 @media all and (max-width: 1920px) {
   .Promo {
     max-width: 1920px;
-    &_box_coach_photo {
-      background: url(../../img/image3-374.png);
+    &_box_coach {
+      &_png {
+        background-image: url(../../img/image3-474.png);
+      }
+      &_webP {
+        background-image: url(../../img/image3-474.webp);
+      }
     }
   }
 }
@@ -320,12 +334,20 @@
           height: 400px;
         }
 
-        &_photo {
+        &_png {
           width: 340px;
           height: 430px;
           margin-left: 40px;
           top: 0;
-          background: url(../../img/image3-340.png);
+          background-image: url(../../img/image3-340.png);
+        }
+
+        &_webP {
+          width: 340px;
+          height: 430px;
+          margin-left: 40px;
+          top: 0;
+          background-image: url(../../img/image3-340.webp);
         }
 
         &_item {
@@ -398,12 +420,18 @@
           border-radius: 40px;
         }
 
-        &_photo {
+        &_png {
           width: 280px;
           height: 355px;
           margin-left: 20px;
+          background-image: url(../../img/image3-280.png);
+        }
 
-          background: url(../../img/image3-280.png);
+        &_webP {
+          width: 280px;
+          height: 355px;
+          margin-left: 20px;
+          background-image: url(../../img/image3-280.webp);
         }
 
         &_item {
