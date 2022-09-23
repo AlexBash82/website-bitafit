@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-bitafit/static/css/main.1fd85dbf.css",
-    "main.js": "/website-bitafit/static/js/main.6b900e56.js",
+    "main.css": "/website-bitafit/static/css/main.9d842281.css",
+    "main.js": "/website-bitafit/static/js/main.2b1b2681.js",
     "static/js/787.71e672d5.chunk.js": "/website-bitafit/static/js/787.71e672d5.chunk.js",
     "static/media/image1-3200.jpg": "/website-bitafit/static/media/image1-3200.d7db446a87ee42d1cdc9.jpg",
     "static/media/image2-3200.png": "/website-bitafit/static/media/image2-3200.b78b16d915136eb7e26e.png",
@@ -26,6 +26,11 @@
     "static/media/image2-320.png": "/website-bitafit/static/media/image2-320.7c02b782a79b50c6778c.png",
     "static/media/image3-280.png": "/website-bitafit/static/media/image3-280.2fbb5af62284f92d7be4.png",
     "static/media/image3-340.webp": "/website-bitafit/static/media/image3-340.58984ef2e9adf1602d99.webp",
+    "static/media/phone-small-3-240.png": "/website-bitafit/static/media/phone-small-3-240.e4f689a8dcb92efc7b36.png",
+    "static/media/phone-small-2-240.png": "/website-bitafit/static/media/phone-small-2-240.957f8871ed9bb968b28b.png",
+    "static/media/phone-small-5-240.png": "/website-bitafit/static/media/phone-small-5-240.7054c211760d6eec610f.png",
+    "static/media/phone-small-4-240.png": "/website-bitafit/static/media/phone-small-4-240.29acb8f5ac5926a96ff6.png",
+    "static/media/phone-small-1-240.png": "/website-bitafit/static/media/phone-small-1-240.f1791d75b9ee8ab6445a.png",
     "static/media/image2-320.webp": "/website-bitafit/static/media/image2-320.1698a8abe8ee7b1bcb91.webp",
     "static/media/image3-280.webp": "/website-bitafit/static/media/image3-280.380d345c2b1e8a37e5d5.webp",
     "static/media/image1-320.jpg": "/website-bitafit/static/media/image1-320.d2c3682a81bd5fdb1d23.jpg",
@@ -33,6 +38,11 @@
     "static/media/Gilroy-Semibold.ttf": "/website-bitafit/static/media/Gilroy-Semibold.41fa36c3c8e966b35423.ttf",
     "static/media/Gilroy-Bold.eot": "/website-bitafit/static/media/Gilroy-Bold.aa68c169bc1dc3db278e.eot",
     "static/media/Gilroy-Bold.ttf": "/website-bitafit/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/phone-small-3-240.webp": "/website-bitafit/static/media/phone-small-3-240.4fa6bfb7042df2db7a3f.webp",
+    "static/media/phone-small-2-240.webp": "/website-bitafit/static/media/phone-small-2-240.9e26300643310337d57c.webp",
+    "static/media/phone-small-5-240.webp": "/website-bitafit/static/media/phone-small-5-240.b846bb4cd27fedda5619.webp",
+    "static/media/phone-small-4-240.webp": "/website-bitafit/static/media/phone-small-4-240.f7baa8ff169e21e8e900.webp",
+    "static/media/phone-small-1-240.webp": "/website-bitafit/static/media/phone-small-1-240.f99d7aea582c522c5635.webp",
     "static/media/Gilroy-Bold.woff": "/website-bitafit/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
     "static/media/Gilroy-Semibold.woff": "/website-bitafit/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
     "static/media/Gilroy-Bold.woff2": "/website-bitafit/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
@@ -55,12 +65,12 @@
     "index.html": "/website-bitafit/index.html",
     "static/media/Logo-symbol.svg": "/website-bitafit/static/media/Logo-symbol.8efcb887909f0abb25f1.svg",
     "static/media/icon8-193.svg": "/website-bitafit/static/media/icon8-193.c1e5c2dbe6a881932ccd.svg",
-    "main.1fd85dbf.css.map": "/website-bitafit/static/css/main.1fd85dbf.css.map",
-    "main.6b900e56.js.map": "/website-bitafit/static/js/main.6b900e56.js.map",
+    "main.9d842281.css.map": "/website-bitafit/static/css/main.9d842281.css.map",
+    "main.2b1b2681.js.map": "/website-bitafit/static/js/main.2b1b2681.js.map",
     "787.71e672d5.chunk.js.map": "/website-bitafit/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fd85dbf.css",
-    "static/js/main.6b900e56.js"
+    "static/css/main.9d842281.css",
+    "static/js/main.2b1b2681.js"
   ]
 }
