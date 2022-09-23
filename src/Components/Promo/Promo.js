@@ -2,7 +2,6 @@ import React from 'react'
 import './Promo.scss'
 
 function Promo({ elementToScrollRef, isWebP }) {
-  const twoButtons = window.matchMedia('screen and (min-width: 664px)').matches
   const isIphone = window.navigator.userAgent.toLowerCase().match(/iphone/i)
 
   return (
@@ -62,20 +61,37 @@ function Promo({ elementToScrollRef, isWebP }) {
                 Скачай приложение
               </div>
               <div className="Promo_box_download_item_col-1_row-2">
-                {(twoButtons || !isIphone) && (
-                  <a href="https://play.google.com/store/apps/details?id=com.bitafit.client">
-                    <div className="Promo_box_download_item_col-1_row-2_button">
-                      <div className="Promo_box_download_item_col-1_row-2_button_icon-1"></div>
-                    </div>
-                  </a>
-                )}
-                {(twoButtons || isIphone) && (
-                  <a href="https://apps.apple.com/ru/app/bitafit/id1591904801?l=en">
-                    <div className="Promo_box_download_item_col-1_row-2_button">
-                      <div className="Promo_box_download_item_col-1_row-2_button_icon-2"></div>
-                    </div>
-                  </a>
-                )}
+                <a
+                  href={`${
+                    isIphone
+                      ? 'https://apps.apple.com/ru/app/bitafit/id1591904801?l=en'
+                      : 'https://play.google.com/store/apps/details?id=com.bitafit.client'
+                  } `}
+                >
+                  <div className="Promo_box_download_item_col-1_row-2_button">
+                    <div
+                      className={`Promo_box_download_item_col-1_row-2_button_icon-${
+                        isIphone ? '1' : '2'
+                      }`}
+                    ></div>
+                  </div>
+                </a>
+
+                <a
+                  href={`${
+                    isIphone
+                      ? 'https://play.google.com/store/apps/details?id=com.bitafit.client'
+                      : 'https://apps.apple.com/ru/app/bitafit/id1591904801?l=en'
+                  } `}
+                >
+                  <div className="Promo_box_download_item_col-1_row-2_button">
+                    <div
+                      className={`Promo_box_download_item_col-1_row-2_button_icon-${
+                        isIphone ? '2' : '1'
+                      }`}
+                    ></div>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="Promo_box_download_item_col-2">

@@ -148,7 +148,6 @@
     width: 300px;
     height: 598px;
     background: rgba(234, 235, 241, 0.2);
-
     border: 1px solid #ffffff;
     box-shadow: 0px 40px 60px rgba(80, 108, 207, 0.48);
     border-radius: 32px;
@@ -409,19 +408,86 @@
 }
 
 @media all and (max-width: 740px) {
-  .Schedule_image {
-    &_png {
-      background-image: url(../../img/image2-740.png);
-    }
-    &_webP {
-      background-image: url(../../img/image2-740.webp);
-    }
-  }
-}
-
-@media all and (max-width: 680px) {
   .Schedule {
-    gap: 10px;
+    gap: 0;
+    &_image {
+      &_png {
+        background-image: url(../../img/image2-740.png);
+      }
+      &_webP {
+        background-image: url(../../img/image2-740.webp);
+      }
+    }
+    &_frame {
+      left: 20px;
+      width: 300px;
+      &_text-2 {
+        width: 300px;
+      }
+    }
+    &_phone {
+      background: none;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      width: 45%;
+      height: 109%;
+      top: -20px;
+      display: flex;
+      align-items: flex-end;
+
+      &_rectangle-1,
+      &_rectangle-2 {
+        display: none;
+      }
+
+      &_display-1_jpg,
+      &_display-2_jpg,
+      &_display-3_jpg,
+      &_display-4_jpg,
+      &_display-5_jpg,
+      &_display-1_webP,
+      &_display-2_webP,
+      &_display-3_webP,
+      &_display-4_webP,
+      &_display-5_webP {
+        position: relative;
+        height: 90%;
+        width: 100%;
+        top: 0px;
+      }
+
+      &_display-1_jpg {
+        background-image: url(../../img/phone-small-1-240.png);
+      }
+      &_display-2_jpg {
+        background-image: url(../../img/phone-small-2-240.png);
+      }
+      &_display-3_jpg {
+        background-image: url(../../img/phone-small-3-240.png);
+      }
+      &_display-4_jpg {
+        background-image: url(../../img/phone-small-4-240.png);
+      }
+      &_display-5_jpg {
+        background-image: url(../../img/phone-small-5-240.png);
+      }
+      &_display-1_webP {
+        background-image: url(../../img/phone-small-1-240.webp);
+      }
+      &_display-2_webP {
+        background-image: url(../../img/phone-small-2-240.webp);
+      }
+      &_display-3_webP {
+        background-image: url(../../img/phone-small-3-240.webp);
+      }
+      &_display-4_webP {
+        background-image: url(../../img/phone-small-4-240.webp);
+      }
+      &_display-5_webP {
+        background-image: url(../../img/phone-small-5-240.webp);
+      }
+    }
   }
 }
 
@@ -431,6 +497,8 @@
     height: 820px;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
 
     &_image {
       &_gradient {
@@ -446,14 +514,43 @@
     }
 
     &_phone {
-      margin-left: 0;
-      margin-right: 0;
-      top: 5px;
+      width: 294px;
     }
 
     &_frame {
-      top: 20px;
+      width: auto;
+      height: auto;
+      left: 0;
+      top: 0px;
       z-index: 1;
+
+      &_group {
+        margin-left: 20px;
+      }
+      &_text-1 {
+        width: auto;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      &_text-2 {
+        width: 92%;
+        height: auto;
+        margin-left: 20px;
+      }
+      &_button {
+        margin-left: 20px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 492px) {
+  .Schedule {
+    gap: 0;
+    &_frame_button {
+      margin-bottom: 20px;
     }
   }
 }
@@ -479,6 +576,9 @@
         width: 100vw;
         background-image: url(../../img/image2-320.webp);
       }
+    }
+    &_phone {
+      top: -30px;
     }
   }
 }
