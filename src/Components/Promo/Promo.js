@@ -2,7 +2,9 @@ import React from 'react'
 import './Promo.scss'
 
 function Promo({ elementToScrollRef, isWebP }) {
-  const isIphone = window.navigator.userAgent.toLowerCase().match(/iphone/i)
+  const isIphone = window.navigator.userAgent
+    .toLowerCase()
+    .match(/iphone|ipad/i)
 
   return (
     <div className="Promo">
