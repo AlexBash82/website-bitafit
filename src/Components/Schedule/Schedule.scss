@@ -539,6 +539,7 @@
       &_text-2 {
         width: 92%;
         height: auto;
+        min-height: 80px;
         margin-left: 20px;
       }
       &_button {
@@ -552,9 +553,14 @@
 @media all and (max-width: 492px) {
   .Schedule {
     gap: 0;
-    &_frame_button {
+    &_frame {
+      &_button {
       margin-bottom: 20px;
     }
+      &_text-2 {
+        min-height: 120px;
+      }    
+  }
     &_phone {
       &_display-1_jpg,
       &_display-2_jpg,
