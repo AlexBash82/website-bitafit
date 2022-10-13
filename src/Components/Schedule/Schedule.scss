@@ -455,7 +455,7 @@
       &_display-3_webP,
       &_display-4_webP,
       &_display-5_webP {
-        height: 500px;
+        height: 450px;
         width: 260px;
         top: 50px;
       }
@@ -555,6 +555,19 @@
     &_frame_button {
       margin-bottom: 20px;
     }
+    &_phone {
+      &_display-1_jpg,
+      &_display-2_jpg,
+      &_display-3_jpg,
+      &_display-4_jpg,
+      &_display-5_jpg,
+      &_display-1_webP,
+      &_display-2_webP,
+      &_display-3_webP,
+      &_display-4_webP,
+      &_display-5_webP {
+      top: 40px;
+    }}
   }
 }
 
