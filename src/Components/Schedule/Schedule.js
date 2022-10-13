@@ -91,10 +91,35 @@ function Schedule({ executeScroll, htmlElRef2, isWebP }) {
         </button>
       </div>
       <div className="Schedule_phone">
-        <div
+        {/* <div
           className={`Schedule_phone_display-${selButton}_${
             isWebP ? 'webP' : 'jpg'
           }`}
+        ></div> */}
+        <div
+          className={`Schedule_phone_display-1_${
+            isWebP ? 'webP' : 'jpg'
+          } ${selButton === 1 ? 'above': ''}`}
+        ></div> 
+        <div
+          className={`Schedule_phone_display-2_${
+            isWebP ? 'webP' : 'jpg'
+          } ${selButton === 2 ? 'above': ''}`}
+        ></div>
+        <div
+          className={`Schedule_phone_display-3_${
+            isWebP ? 'webP' : 'jpg'
+          } ${selButton === 3 ? 'above': ''}`}
+        ></div>
+        <div 
+          className={`Schedule_phone_display-4_${
+            isWebP ? 'webP' : 'jpg'
+          } ${selButton === 4 ? 'above': ''}`}
+        ></div>
+        <div
+          className={`Schedule_phone_display-5_${
+            isWebP ? 'webP' : 'jpg'
+          } ${selButton === 5 ? 'above': ''}`}
         ></div>
         <div className="Schedule_phone_rectangle-1"></div>
         <div className="Schedule_phone_rectangle-2"></div>

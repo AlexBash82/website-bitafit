@@ -23,6 +23,10 @@
   mix-blend-mode: soft-light;
 }
 
+.above {
+  z-index: 1;
+}
+
 .Schedule {
   position: relative;
   max-width: 3200px;
@@ -431,8 +435,8 @@
       box-shadow: none;
       border-radius: 0;
       width: 45%;
-      height: 109%;
-      top: -20px;
+      height: 100%;
+      top: 0px;
       display: flex;
       align-items: flex-end;
 
@@ -451,10 +455,9 @@
       &_display-3_webP,
       &_display-4_webP,
       &_display-5_webP {
-        position: relative;
-        height: 90%;
-        width: 100%;
-        top: 0px;
+        height: 500px;
+        width: 260px;
+        top: 50px;
       }
 
       &_display-1_jpg {
