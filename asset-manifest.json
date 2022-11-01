@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-bitafit/static/css/main.8e8aba10.css",
-    "main.js": "/website-bitafit/static/js/main.3b14ddc5.js",
+    "main.css": "/website-bitafit/static/css/main.29edf52e.css",
+    "main.js": "/website-bitafit/static/js/main.252de8e0.js",
     "static/js/496.c1efe804.chunk.js": "/website-bitafit/static/js/496.c1efe804.chunk.js",
     "static/media/image1-3200.jpg": "/website-bitafit/static/media/image1-3200.d7db446a87ee42d1cdc9.jpg",
     "static/media/image2-3200.png": "/website-bitafit/static/media/image2-3200.b78b16d915136eb7e26e.png",
@@ -65,12 +65,12 @@
     "index.html": "/website-bitafit/index.html",
     "static/media/Logo-symbol.svg": "/website-bitafit/static/media/Logo-symbol.8efcb887909f0abb25f1.svg",
     "static/media/icon8-193.svg": "/website-bitafit/static/media/icon8-193.c1e5c2dbe6a881932ccd.svg",
-    "main.8e8aba10.css.map": "/website-bitafit/static/css/main.8e8aba10.css.map",
-    "main.3b14ddc5.js.map": "/website-bitafit/static/js/main.3b14ddc5.js.map",
+    "main.29edf52e.css.map": "/website-bitafit/static/css/main.29edf52e.css.map",
+    "main.252de8e0.js.map": "/website-bitafit/static/js/main.252de8e0.js.map",
     "496.c1efe804.chunk.js.map": "/website-bitafit/static/js/496.c1efe804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e8aba10.css",
-    "static/js/main.3b14ddc5.js"
+    "static/css/main.29edf52e.css",
+    "static/js/main.252de8e0.js"
   ]
 }
