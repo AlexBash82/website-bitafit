@@ -14,7 +14,7 @@ function Promo({ elementToScrollRef, isWebP }) {
             Мультивселенная из фитнес-сетей и клубов
           </div>
           <div className="Promo_box_clubs_text-2">
-            Множество клубов и сетей позолят выбрать оптимальный вариант.
+            Множество клубов и сетей позолят выбрать оптимальный вариант.<br/>
             Оформляй мультиклубные карты и ходи хоть куда и хоть когда.
           </div>
           <div className="Promo_box_clubs_imagebox">
