@@ -86,6 +86,7 @@
         border-radius: 20px;
         box-sizing: border-box;
         background: rgba(255, 255, 255, 0);
+        cursor: pointer;
 
         & span {
           font-weight: 700;
@@ -133,6 +134,7 @@
       border: none;
       border-radius: 20px;
       background: #ffffff;
+      cursor: pointer;
 
       &:hover {
         background: #eaebf1;
